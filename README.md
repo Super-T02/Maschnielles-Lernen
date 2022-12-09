@@ -1,28 +1,22 @@
-# Maschnielles-Lernen
-Hier entsteht das ML Projekt aus der Vorlesung Einführung ins Maschinelle Lernen
+# Machine Learning
+This repository contains the project of the lecture machine learning of the cooperative state university Stuttgart. The
+goal is to develop a convolutional neural network (CNN) for image processing. In this project a data set with different
+emotions of faces in the shape of 80x80 pixels will be trained. The data are from
+<https://www.kaggle.com/code/kmirfan/micro-expression-classification>.
 
-## Konzept
-###### Vom 2022-11-13
+## File structure
 
-### Methode 
-**Neuronales Netz**
-Ziel ist es hier, die Generalisierbarkeit des Modells in Abhängigkeit der Qualität der  Trainingsdaten herauszuarbeiten.
+```Text
+|- archive: Old not updated prototype files (deprecated)
+|- data: Contains the image data and the trained models
+|- pictures: Screenshots of plots and models
+convolutional-neural-network.ipynb: Notebook with the implementation of the model.
+README.md: This readme file
+```
 
-### Datensätze
-- **Titanic Problem**: https://www.kaggle.com/competitions/titanic/data?select=test.csv
-  Fragestellung: Welche Personen würden aufgrund der Trainigsdaten sterben?
-  Eigenschaften: Basiert verschiedenen Klassen, wie Alter, Fahrtklasse, Anzahl Kinder an Bord/ Geschwister / Eltern, Preis, etc. (10 Felder)
-- **Emotionen Herausfinden**: https://www.kaggle.com/datasets/kmirfan/micro-expressions
-  Fragestellung: Welche Emotionen zeigen die Personen auf dem Bildet 
-  Eigenschaften: Gelabelte Daten geordnet nach Emotion.
-  Vorteil: Möglichkeit der Generalisierung 
-  Nachteil: Bilder müssen verarbeitet werden 
-- **Tier Klassifikation**: https://www.kaggle.com/datasets/alessiocorrado99/animals10
-  Fragestellung: Was für ein Tier ist auf dem Bild zu sehen?
-  Eigenschaften: Bereits gelabelte Bilder für verschiedene Tierarten
-  Nachteil: Große Datenmenge (Schwer zu verarbeitet), Nur wenig Tierarten (10 verschiedene)
+## Used technologies
 
-### Tools 
-- Python 
+- Python
 - Tensorflow
-- Jupyter Notebooks
+- Matplotlib
+- Jupyter Notebook
