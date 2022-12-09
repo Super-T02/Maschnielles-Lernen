@@ -14,6 +14,11 @@ convolutional-neural-network.ipynb: Notebook with the implementation of the mode
 README.md: This readme file
 ```
 
+## Model
+
+The model has following components:
+![Picture of the Model](pictures/architecture_model.png)
+
 ## Used technologies
 
 - Python
